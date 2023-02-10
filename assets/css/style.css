@@ -1,0 +1,82 @@
+/* FONT FACE */
+@font-face {
+    font-family: "Outfit Regular";
+    src: url(/assets/fonts/Outfit/static/Outfit-Regular.ttf);
+}
+
+    @font-face {
+        font-family: "Outfit Bold";
+        src: url(/assets/fonts/Outfit/static/Outfit-Bold.ttf);
+}
+
+/* BACKGROUND */
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+/* BOX */
+
+.box1{
+    background-color: white;
+    width: 325px;
+    height: 500px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.box2{
+    background-image: url(/assets/images/image-qr-code.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    border-radius: 10px;
+    width: 90%;
+    height: 60%;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 33%;
+    left: 50%;
+}
+
+
+/* TEXT */
+
+h1{
+    font-family: "Outfit Bold";
+    font-size: 1.3rem;
+    position: relative;
+    top: 67%;
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.box1>p{
+    font-family: "Outfit Regular";
+    font-size: 0.9rem;
+    position: relative;
+    text-align: center;
+    top: 69%;
+    margin: 0px 40px;
+    color: rgba(0, 0, 0, 0.500);
+}
+
+a{
+    font-family: "Outfit Regular";
+    text-decoration: none;
+    color: white;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+a:hover{
+    color: black;
+}
